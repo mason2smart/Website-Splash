@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+	<defs>
+		<style type="text/css"><![CDATA[
+			.logoblue {fill: #3B5998;}
+			.logowhite {fill: #FFFFFF;}
+		]]></style>
+	</defs>
+	<path id="mortise" class="logoblue" d="M94.48,100c3.05,0,5.52-2.47,5.52-5.52V5.52C100,2.47,97.53,0,94.48,0H5.52C2.47,0,0,2.47,0,5.52v88.96   C0,97.53,2.47,100,5.52,100H94.48z"/>
+	<path id="letter_f" class="logowhite" d="M69,100V61.28h13l1.95-15.09H69v-9.64c0-4.37,1.21-7.35,7.48-7.35l7.99,0V15.7   c-1.38-0.18-6.12-0.59-11.64-0.59c-11.52,0-19.41,7.03-19.41,19.95v11.13H40.38v15.09h13.03V100H69z"/>
+</svg>
