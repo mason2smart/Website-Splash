@@ -24,7 +24,31 @@
     <div class="mdl-layout__header-row">
       <!-- Title -->
       <span class="mdl-layout-title">DISCOBOTS SPLASH</span>
-    </div>
+      
+                       <section class="section--right mdl-grid mdl-grid--2dp">
+                        <li class="mdl-layout__tab mdl-button mdl-js-button mdl-js-ripple-effect">
+	            <a href="https://www.facebook.com/DiscoBots2587">
+	              <img src="static/facebook.svg" alt="Facebook" width="30" height="30" />
+	            </a>					
+	            </li>
+			<li class="mdl-layout__tab mdl-button mdl-js-button mdl-js-ripple-effect">
+	            <a href="https://twitter.com/discobots">
+	              <img src="static/twitter.svg" alt="Twitter" width="30" height="30" />
+	            </a>
+		 </li>
+            <li class="mdl-layout__tab mdl-button mdl-js-button mdl-js-ripple-effect">
+	            <a href="https://plus.google.com/+DiscoBots/">
+	              <img src="static/google.svg" alt="Google+" width="30" height="30" />
+	            </a>
+		 </li>
+            <li class="mdl-layout__tab mdl-button mdl-js-button mdl-js-ripple-effect">
+	            <a href="https://github.com/discobots2587/">
+	              <img src="static/github.png" alt="GitHub" width="30" height="30" />
+	            </a>
+		 </li>
+	</section>
+       </div>
+    
     <!-- Tabs -->
     <div class="mdl-layout__tab-bar mdl-color--primary-dark">
                <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
@@ -40,10 +64,11 @@
 		</section>
    </div>
   </header>
-</div>
 			  <!------------------------------------------>
-      	<div id="slideshow">
-      	  <img id="slideimage" src="static/image1.jpg" />
+<main>
+      	 <section class="section--center mdl-grid--no-spacing mdl-shadow--2dp">
+     	  <div id="slideshow" style="align-content: center">
+      	  <img id="slideimage" style="align: center;" src="static/image1.jpg" />
       	  <script type="text/javascript"> // IMAGE SIZE NEEDS TO BE 600px WIDTH AND 400px HEIGHT
             var imageslist = new Array(); // create new array to preload images
             imageslist[0] = new Image(); // create new instance of image object
@@ -74,6 +99,8 @@
             slide();
           </script>
 			  </div>
+				 </section>
+				 </main>
 			  <!------------------------------------------>
 	      <div class="linkbar" id="social">
 	        <ul>
@@ -105,5 +132,7 @@
      <p>We are the DiscoBots 2587, a FIRST and VEX Robotics team from Carnegie Vanguard High School and Lamar High School in Houston, Texas. This is the gateway to our website. Select a year to go to the website for that year or select a social media icon to follow us online!</p>
      -->
     </div>
+    </div>
+
   </body>
 </html>
