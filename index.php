@@ -2,17 +2,48 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="static/global.css">
+    <link rel="stylesheet" href="material/material.min.css">
+<script src="material/material.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>Discobots 2587 | Splash</title>
     
   </head>
-  <body>
+  <body bgcolor="dark blue">
     <div id='global-wrapper'>
       <center>
         <!------------------------------------------>
         <div id='logo'>
-      	  <img src="static/logo.png" alt="Logo" />
+      	  <img src="logo.png" alt="Logo" />
         </div>
         <!------------------------------------------>
+    		<!-- Simple header with fixed tabs. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
+            mdl-layout--fixed-tabs">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">Title</span>
+    </div>
+    <!-- Tabs -->
+    <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+		<li class="mdl-layout__tab" a href = "http://2015.discobots.org/">2015</li>
+      <a href="http://2014.discobots.org/" class="mdl-layout__tab">2014</a>
+      <a href="http://2013.discobots.org/" class="mdl-layout__tab">2013</a>
+      <a href="http://2012.discobots.org/" class="mdl-layout__tab">2012</a>
+      <a href="http://2011.discobots.org/" class="mdl-layout__tab">2011</a>
+      <a href="http://2010.discobots.org/" class="mdl-layout__tab">2010</a>
+      <a href="http://2009.discobots.org/" class="mdl-layout__tab">2009</a>
+      <a href="http://2008.discobots.org/" class="mdl-layout__tab">2008</a>
+
+
+
+
+    </div>
+  </header>
+</div>
+    		
+    		
+    		
     		<div class="linkbar" id="nav">
     			<ul>
     			  <li><a class="link" href="http://2015.discobots.org/">2015</a></li>
