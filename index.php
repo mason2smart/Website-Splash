@@ -13,7 +13,7 @@
     <title>Discobots 2587 | Splash</title>
     
   </head>
-  <body>
+  <body class="mdl-color--blue-A700">
              <center>
         <!------------------------------------------>
         <!------------------------------------------>
@@ -21,7 +21,7 @@
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
             mdl-layout--fixed-tabs">
   <header class="mdl-layout__header">
-    <div class="mdl-layout__header-row">
+    <div class="mdl-layout__header-row mdl-shadow--20dp">
       <!-- Title -->
       <span class="mdl-layout-title">DISCOBOTS SPLASH</span>
                       <div align="right">
@@ -68,46 +68,248 @@
   </header>
 			  <!------------------------------------------>
 <main>
-      	 <section class="section--center mdl-grid--no-spacing mdl-shadow--2dp">
-     	  <div id="slideshow" style="align-content: center">
-      	  <img id="slideimage" style="align: center;" src="static/image1.jpg" />
-      	  <script type="text/javascript"> // IMAGE SIZE NEEDS TO BE 600px WIDTH AND 400px HEIGHT
-            var imageslist = new Array(); // create new array to preload images
-            imageslist[0] = new Image(); // create new instance of image object
-            imageslist[0].src = "static/image1.jpg"; // set image object src property to an image's src, preloading that image in the process
-            imageslist[1] = new Image();
-            imageslist[1].src = "static/image2.jpg";
-            imageslist[2] = new Image();
-            imageslist[2].src = "static/image3.jpg";
-            //var for time image is shown, in milliseconds
-            var speedms = 5000;
-            //variable that will increment through the images
-            var step=0;
-            function slide() {
-              console.log("slide slideshow");
-              if (!document.images) {
-                return;
-              }
-              document.getElementById('slideimage').src = imageslist[step].src;
-              if (step < imageslist.length - 1){
-                step++
-              } else {
-                step=0;
-              }
-              setTimeout("slide()",speedms);
-            }
-            
-            console.log("start slideshow");
-            slide();
-          </script>
-			  </div>
-				 </section>
-				 </main>
-		
-		  </center>
-     <!--
-     <p>We are the DiscoBots 2587, a FIRST and VEX Robotics team from Carnegie Vanguard High School and Lamar High School in Houston, Texas. This is the gateway to our website. Select a year to go to the website for that year or select a social media icon to follow us online!</p>
-     -->
+     	 
+    <ul class='slideshow'>
+  <li>
+      	 <span></span>
+
+	  <h3>The Discobots<br/><font size ="5">FIRST Robotics Team 2587<br/>Carnegie Vanguard High School, Houston, Texas</font></h3>
+   	 
+  </li>
+  <li>
+    	   <span></span>
+  </li>
+  <li>
+    	  <span></span>
+  </li>
+  <li>
+    	  <span></span>
+  </li>
+    <li>
+    	  <span></span>
+  </li>
+     <li>
+    	  <span></span>
+  </li>
+</ul>
+    	 
+    	 <style>
+			 html {
+  min-height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.slideshow {
+  list-style: none;
+  z-index: 1;
+}
+.slideshow li span {
+  width: 100%;
+	height: 100%;
+  position: absolute;
+  top: 104px;
+  left: 0px;
+  color: transparent;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: none;
+  opacity: 0;
+  z-index: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-animation: imageAnimation 32s linear infinite 0s;
+  -moz-animation: imageAnimation 32s linear infinite 0s;
+  animation: imageAnimation 32s linear infinite 0s;
+}
+.slideshow li h3 {
+  position: absolute;
+  text-align: center;
+  z-index: 2;
+  bottom: 150px;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  font-size: 4.0625em;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  -webkit-animation: titleAnimation 32s linear 1 0s;
+  -moz-animation: titleAnimation 32s linear 1 0s;
+  animation: titleAnimation 32s linear 1 0s;
+}
+@media only screen and (min-width: 768px) {
+  .slideshow li h3 {
+    bottom: 30px;
+    font-size: 8.125em;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .slideshow li h3 {
+    font-size: 10.9375em;
+  }
+}
+
+.slideshow li:nth-child(1) span {
+  background-image: url(static/image4-1.png);
+}
+
+.slideshow li:nth-child(2) span {
+  background-image: url(static/image1.jpg);
+  -webkit-animation-delay: 6s;
+  -moz-animation-delay: 6s;
+  animation-delay: 6s;
+}
+
+.slideshow li:nth-child(3) span {
+  background-image: url(static/image3.jpg);
+  -webkit-animation-delay: 12s;
+  -moz-animation-delay: 12s;
+  animation-delay: 12s;
+}
+
+.slideshow li:nth-child(4) span {
+  background-image: url(static/image2.jpg);
+  -webkit-animation-delay: 18s;
+  -moz-animation-delay: 18s;
+  animation-delay: 18s;
+}
+			 
+.slideshow li:nth-child(5) span {
+  background-image: url(static/image5.JPG);
+  -webkit-animation-delay: 24s;
+  -moz-animation-delay: 24s;
+  animation-delay: 24s;
+}
+.slideshow li:nth-child(6) span {
+  background-image: url(static/image6.jpg);
+  -webkit-animation-delay: 32s;
+  -moz-animation-delay: 32s;
+  animation-delay: 32s;
+}
+
+@-webkit-keyframes imageAnimation {
+  0% {
+    opacity: 0;
+    -webkit-animation-timing-function: ease-in;
+  }
+  12.5% {
+    opacity: 1;
+    -webkit-animation-timing-function: ease-out;
+  }
+  25% {
+    opacity: 1;
+  }
+  37.5% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes imageAnimation {
+  0% {
+    opacity: 0;
+    -moz-animation-timing-function: ease-in;
+  }
+  12.5% {
+    opacity: 1;
+    -moz-animation-timing-function: ease-out;
+  }
+  25% {
+    opacity: 1;
+  }
+  37.5% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes imageAnimation {
+  0% {
+    opacity: 0;
+    -webkit-animation-timing-function: ease-in;
+    -moz-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  12.5% {
+    opacity: 1;
+    -webkit-animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  25% {
+    opacity: 1;
+  }
+  37.5% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes titleAnimation {
+  0% {
+    opacity: 0;
+  }
+  12.5% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  37.5% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes titleAnimation {
+  0% {
+    opacity: 0;
+  }
+  12.5% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  37.5% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes titleAnimation {
+  0% {
+    opacity: 0;
+  }
+  12.5% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  37.5% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.no-cssanimations .slideshow li span {
+  opacity: 1;
+}
+
+	</style>
+     	 
+	</main>
+     
     </div>
     </div>
 
