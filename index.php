@@ -24,8 +24,9 @@
     <div class="mdl-layout__header-row">
       <!-- Title -->
       <span class="mdl-layout-title">DISCOBOTS SPLASH</span>
-      
-                       <section class="section--right mdl-grid mdl-grid--2dp">
+                      <div align="right">
+
+                        <section class="section--right mdl-grid mdl-grid--2dp" style="text-align: right">
                         <li class="mdl-layout__tab mdl-button mdl-js-button mdl-js-ripple-effect">
 	            <a href="https://www.facebook.com/DiscoBots2587">
 	              <img src="static/facebook.svg" alt="Facebook" width="30" height="30" />
@@ -48,6 +49,7 @@
 		 </li>
 	</section>
        </div>
+	  </div>
     
     <!-- Tabs -->
     <div class="mdl-layout__tab-bar mdl-color--primary-dark">
@@ -101,32 +103,7 @@
 			  </div>
 				 </section>
 				 </main>
-			  <!------------------------------------------>
-	      <div class="linkbar" id="social">
-	        <ul>
-	          <li>
-	            <a href="https://www.facebook.com/DiscoBots2587">
-	              <img src="static/facebook.svg" alt="Facebook" />
-	            </a>
-	          </li>
-	          <li>
-	            <a href="https://twitter.com/discobots">
-	              <img src="static/twitter.svg" alt="Twitter" />
-	            </a>
-	          </li>
-	          <li>
-	            <a href="https://plus.google.com/+DiscoBots/">
-	              <img src="static/google.svg" alt="Google+" />
-	            </a>
-	          </li>
-	          <li>
-	            <a href="https://github.com/discobots2587/">
-	              <img src="static/github.png" alt="GitHub" />
-	            </a>
-	          </li>
-	        </ul>
-	      </div>
-		    <!------------------------------------------>
+		
 		  </center>
      <!--
      <p>We are the DiscoBots 2587, a FIRST and VEX Robotics team from Carnegie Vanguard High School and Lamar High School in Houston, Texas. This is the gateway to our website. Select a year to go to the website for that year or select a social media icon to follow us online!</p>
