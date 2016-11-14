@@ -57,23 +57,23 @@
 							</li>
 						</section>
 				</div>
-			  </header>
+		  </header>
 
 
 				<!-- Tabs -->
-				<div>
-				<div class="mdl-layout--large-screen-only mdl-layout__tab-bar mdl-color--primary-dark mdl-shadow--2dp mdl-js-ripple-effect" style="max-height: 50% z-index: 4;">
+				<div class="mdl-grid">
+				<div class="mdl-layout--large-screen-only mdl-color--primary-dark mdl-shadow--4dp" style="max-height: 50%">
 					
 						
-						<a href="http://2013.discobots.org/" class="mdl-tabs__tab mdl-layout__tab mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--grey ">2013</a>
-						<a href="http://2014.discobots.org/" class="mdl-tabs__tab mdl-layout__tab mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--grey">2014</a>
-						<a href="http://2013.discobots.org/" class="mdl-tabs__tab mdl-layout__tab mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--grey ">2013</a>
-						<a href="http://2012.discobots.org/" class="mdl-tabs__tab mdl-layout__tab mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--grey ">2012</a>
-						<a href="http://2011.discobots.org/" class="mdl-tabs__tab mdl-layout__tab mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--grey ">2011</a>
-						<a href="http://2010.discobots.org/" class="mdl-tabs__tab mdl-layout__tab mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--grey ">2010</a>
-						<a href="http://2009.discobots.org/" class="mdl-tabs__tab mdl-layout__tab mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--grey ">2009</a>
-						<a href="http://2008.discobots.org/" class="mdl-tabs__tab mdl-layout__tab mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--grey ">2008</a>
-					</div>
+						<a href="http://2015.discobots.org/" class="mdl-tabs__tab mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--grey ">2015</a>
+						<a href="http://2014.discobots.org/" class="mdl-tabs__tab mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--grey">2014</a>
+						<a href="http://2013.discobots.org/" class="mdl-tabs__tab mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--grey ">2013</a>
+						<a href="http://2012.discobots.org/" class="mdl-tabs__tab mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--grey ">2012</a>
+						<a href="http://2011.discobots.org/" class="mdl-tabs__tab mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--grey ">2011</a>
+						<a href="http://2010.discobots.org/" class="mdl-tabs__tab mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--grey ">2010</a>
+						<a href="http://2009.discobots.org/" class="mdl-tabs__tab mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--grey ">2009</a>
+						<a href="http://2008.discobots.org/" class="mdl-tabs__tab mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--grey ">2008</a>
+				  </div>
 			</div>
 					
 					  <!--  <div class="mdl-layout__header-row">
@@ -93,7 +93,7 @@
       <a class="mdl-navigation__link" href="#">Blog</a>
     </nav>
   </div>			<!------------------------------------------>
-			<main class="mdl-layout__content">
+		  <main class="mdl-layout__content">
 
 				<ul class='slideshow'>
 					<li>
@@ -115,7 +115,7 @@
 						<span></span>
 					</li>
 					<li>
-						<span></span>
+					  <span></span>
 					</li>
 				</ul>
 
@@ -345,7 +345,7 @@
 				</style>
 
 			</main>
-
+			<font size="1"><p style="margin-top:0; margin-bottom: 0;">© Mason Cole</p></font>
 		</div>
 		</div>
 
