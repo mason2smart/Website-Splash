@@ -8,9 +8,16 @@
 	<link rel="stylesheet" href="material/material.min.css">
 	<script src="material/material.min.js"></script>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	    <meta name="msapplication-TileImage" content="static/logo2.jpg">
+	        <link rel="apple-touch-icon-precomposed" href="images/logo2.jpg">
+	            <link rel="shortcut icon" href="static/logo2.jpg">
+
+
 	<meta name="mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <link rel="shortcut icon" href="static/logo2.jpg">
+
 	<title>Discobots 2587 | Splash</title>
 
 </head>
@@ -62,9 +69,7 @@
 
 				<!-- Tabs -->
 				<div class="mdl-grid">
-				<div class="mdl-layout--large-screen-only mdl-color--primary-dark mdl-shadow--4dp" style="max-height: 50%">
-					
-						
+				<div class="mdl-layout--large-screen-only mdl-color--primary-dark mdl-shadow--4dp mdl-js-ripple-effect" style="max-height: 50%">
 						<a href="http://2015.discobots.org/" class="mdl-tabs__tab mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--grey ">2015</a>
 						<a href="http://2014.discobots.org/" class="mdl-tabs__tab mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--grey">2014</a>
 						<a href="http://2013.discobots.org/" class="mdl-tabs__tab mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--grey ">2013</a>
@@ -76,24 +81,21 @@
 				  </div>
 			</div>
 					
-					  <!--  <div class="mdl-layout__header-row">
-      <span class="mdl-layout-title">On This Site</span>
-      <div class="mdl-layout-spacer"></div>
-      <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" href="#">Home</a>
-                <a class="mdl-navigation__link" href="#">About</a>
-                <a class="mdl-navigation__link" href="#">Contact</a>
-      </nav>
-    </div>-->
-    <div class="mdl-layout__drawer mdl-layout--small-screen-only">DiscoPages<nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="#">Products</a>
-      <a class="mdl-navigation__link" href="#">Services</a>
-      <a class="mdl-navigation__link" href="#">Portfolios</a>
-      <a class="mdl-navigation__link" href="#">Achievements</a>
-      <a class="mdl-navigation__link" href="#">Blog</a>
+	
+			<div class="mdl-layout__drawer mdl-layout--small-screen-only mdl-color--grey-700 mdl-color-text--blue-400"><p style="font-size:'4'" class="mdl-color-text--blue-300 mdl-shadow--4dp"><u><b>DiscoPages</b></u></p><nav class="mdl-navigation">
+				<a class="mdl-color-text--blue-400 mdl-navigation__link" href="http://2016.discobots.org/"><b>2016</b></a>
+				<a class="mdl-color-text--blue-400 mdl-navigation__link" href="http://2015.discobots.org/"><b>2015</b></a>
+				<a class="mdl-color-text--blue-400 mdl-navigation__link" href="http://2014.discobots.org/"><b>2014</b></a>
+				<a class="mdl-color-text--blue-400 mdl-navigation__link" href="http://2013.discobots.org/"><b>2013</b></a>
+				<a class="mdl-color-text--blue-400 mdl-navigation__link" href="http://2012.discobots.org/"><b>2012</b></a>
+				<a class="mdl-color-text--blue-400 mdl-navigation__link" href="http://2011.discobots.org/"><b>2011</b></a>
+				<a class="mdl-color-text--blue-400 mdl-navigation__link" href="http://2010.discobots.org/"><b>2010</b></a>
+				<a class="mdl-color-text--blue-400 mdl-navigation__link" href="http://2009.discobots.org/"><b>2009</b></a>
+				<a class="mdl-color-text--blue-400 mdl-navigation__link" href="http://2008.discobots.org/"><b>2008</b></a>
     </nav>
   </div>			<!------------------------------------------>
 		  <main class="mdl-layout__content">
+		  <!-- can add in to above: mdl-cell--12-col-->
 
 				<ul class='slideshow'>
 					<li>
@@ -115,6 +117,9 @@
 						<span></span>
 					</li>
 					<li>
+					  <span></span>
+					</li>
+				  <li>
 					  <span></span>
 					</li>
 				</ul>
@@ -147,9 +152,9 @@
 						z-index: 0;
 						-webkit-backface-visibility: hidden;
 						backface-visibility: hidden;
-						-webkit-animation: imageAnimation 32s linear infinite 0s;
-						-moz-animation: imageAnimation 32s linear infinite 0s;
-						animation: imageAnimation 32s linear infinite 0s;
+						-webkit-animation: imageAnimation 36s linear infinite 0s;
+						-moz-animation: imageAnimation 36s linear infinite 0s;
+						animation: imageAnimation 36s linear infinite 0s;
 					}
 					
 					.slideshow li h3 {
@@ -160,13 +165,14 @@
 						left: 0;
 						right: 0;
 						opacity: 0;
+						line-height: 1em;
 						font-size: 4.0625em;
 						font-family: 'Josefin Sans', sans-serif;
 						text-transform: uppercase;
 						color: #fff;
-						-webkit-animation: titleAnimation 32s linear 1 0s;
-						-moz-animation: titleAnimation 32s linear 1 0s;
-						animation: titleAnimation 32s linear 1 0s;
+						-webkit-animation: titleAnimation 36s linear 1 0s;
+						-moz-animation: titleAnimation 36s linear 1 0s;
+						animation: titleAnimation 36s linear 1 0s;
 					}
 					
 					@media only screen and (min-width: 768px) {
@@ -183,42 +189,48 @@
 					}
 					
 					.slideshow li:nth-child(1) span {
-						background-image: url(static/image4-1.png);
+						background-image: url(static/image6.jpg);
 					}
 					
 					.slideshow li:nth-child(2) span {
-						background-image: url(static/image1.jpg);
+						background-image: url(static/image5.JPG);
 						-webkit-animation-delay: 6s;
 						-moz-animation-delay: 6s;
 						animation-delay: 6s;
 					}
 					
 					.slideshow li:nth-child(3) span {
-						background-image: url(static/image3.jpg);
+						background-image: url(static/image1.jpg);
 						-webkit-animation-delay: 12s;
 						-moz-animation-delay: 12s;
 						animation-delay: 12s;
 					}
 					
 					.slideshow li:nth-child(4) span {
-						background-image: url(static/image2.jpg);
+						background-image: url(static/image3.jpg);
 						-webkit-animation-delay: 18s;
 						-moz-animation-delay: 18s;
 						animation-delay: 18s;
 					}
 					
 					.slideshow li:nth-child(5) span {
-						background-image: url(static/image5.JPG);
+						background-image: url(static/image2.jpg);
 						-webkit-animation-delay: 24s;
 						-moz-animation-delay: 24s;
 						animation-delay: 24s;
 					}
 					
 					.slideshow li:nth-child(6) span {
+						background-image: url(static/image4-1.png);
+						-webkit-animation-delay: 30s;
+						-moz-animation-delay: 30s;
+						animation-delay: 30s;
+					}
+										.slideshow li:nth-child(7) span {
 						background-image: url(static/image6.jpg);
-						-webkit-animation-delay: 32s;
-						-moz-animation-delay: 32s;
-						animation-delay: 32s;
+						-webkit-animation-delay: 36s;
+						-moz-animation-delay: 36s;
+						animation-delay: 36s;
 					}
 					
 					@-webkit-keyframes imageAnimation {
@@ -345,7 +357,7 @@
 				</style>
 
 			</main>
-		  <p style="margin-top:0; margin-bottom: 0;">© Mason Cole</p>
+		  <p style="margin-top:0; margin-bottom: 0;">&copy; Mason Cole & Discobots</p>
 		</div>
 		</div>
 
