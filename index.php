@@ -345,7 +345,7 @@
 				</style>
 
 			</main>
-			<font size="1"><p style="margin-top:0; margin-bottom: 0;">© Mason Cole</p></font>
+		  <p style="margin-top:0; margin-bottom: 0;">© Mason Cole</p>
 		</div>
 		</div>
 
