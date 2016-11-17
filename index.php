@@ -100,7 +100,7 @@
 					<li>
 						<span></span>
 
-						<h3>The Discobots<br/><font size ="5">FIRST Robotics Team 2587<br/>Carnegie Vanguard High School, Houston, Texas</font></h3>
+						<h3>The Discobots<br/><font size ="5">FIRST Robotics Team 2587<br/>Carnegie Vanguard & Lamar High School, Houston, Texas</font></h3>
 
 					</li>
 					<li>
