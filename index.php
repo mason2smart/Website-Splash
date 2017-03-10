@@ -4,6 +4,24 @@
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="Discobots - First Robotics Team 2587 Main Directory">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 minimum-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="material/material.min.css">
+	<script src="material/material.min.js"></script>
+	    <link rel="stylesheet" href="dist/css/swiper.min.css">
+
+	<!--<script src="jquery_lazyload/jquery.lazyload.js" type="text/javascript"></script>-->
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<title>Discobots 2587 | Splash</title>
+		<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Discobots - First Robotics Team 2587 Main Directory">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="material/material.min.css">
 	<script src="material/material.min.js"></script>
@@ -16,7 +34,30 @@
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<title>Discobots 2587 | Splash</title>
-
+		
+		
+			<style>
+				.swiper-slide{background-position:center;background-size:cover;}
+				
+				.swiper-container {
+    			width: 100%;
+					height: 100%;}
+				html {
+						min-height: 100%;
+						height: 100%;
+					}
+					
+				body {
+						height: 100%;
+						position: relative;
+					}
+					
+				.slideshow {
+						list-style: none;
+						z-index: 1;
+				}
+		}      
+			  </style>
 
 </head>
 
@@ -98,18 +139,17 @@
       <a class="mdl-navigation__link" href="#">Blog</a>
     </nav>
   </div>			<!------------------------------------------>
-		  <main class="mdl-layout__content">
-<div class="swiper-container">
+		  <div class="swiper-container">
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
         <!-- Slides -->
-        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide" style="background-image:url(static/image1.jpg)"></div>
         <div class="swiper-slide">Slide 2</div>
         <div class="swiper-slide">Slide 3</div>
         ...
     </div>
     <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
+    <div class="swiper-pagination" ></div>
     
     <!-- If we need navigation buttons -->
     <div class="swiper-button-prev"></div>
@@ -118,6 +158,9 @@
     <!-- If we need scrollbar -->
     <div class="swiper-scrollbar"></div>
 </div>
+
+		  <main class="mdl-layout__content">
+
 				<!--<ul class='slideshow'>
 					<li>
 						<span></span>
@@ -375,7 +418,7 @@
   <script>        
   var mySwiper = new Swiper ('.swiper-container', {
     // Optional parameters
-    direction: 'vertical',
+    direction: 'horizontal',
     loop: true,
     
     // If we need pagination
